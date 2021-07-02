@@ -6,7 +6,7 @@ export const GifGridItem = (props) => {
 
     return (
         <div>
-            <img src={props.gif} alt={props.title} />
+          {  <img src={props.gif} alt={props.title} /> }
         </div>
     )
 }

@@ -15,27 +15,33 @@ export const GifGrid = ({category}) => {
         const { data } = await resp.json();
         
         const gifs = data.map( img => {
-            return{
+            
+           return {
                 id: img.id,
                 gif: img.images?.downsized_large.url,
                 title: img.title   
             }
-        });
+
+        })
             
-        console.log(gifs);
-        setImages(gifs);
+        
+            console.log(gifs);
+        
+     setImages(gifs);
         
     }
 
-    getGiphes();
+    
+    
     return (
                 <>
-                   {
+                <h3>{ category } </h3>
+                    {
                         images.map( imagen => (
                            
                                 <GifGridItem 
-                                    key=imagen.id
-                                    img = { imagen } />
+                                    key= {imagen.id }
+                                    { ...imagen } />
                             
                         ))
                     }
