@@ -13,3 +13,23 @@ code {
 input {
     width: 100%;
 }
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 6px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    max-width: 100px;
+    max-height: 40px;
+}
