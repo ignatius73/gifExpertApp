@@ -22,14 +22,12 @@ input {
 
 .card {
     text-align: center;
-    border: 1px solid grey;
     border-radius: 10px;
     margin-bottom: 6px;
     margin-right: 10px;
-    overflow: hidden;
 }
 
 .card img {
-    max-width: 100px;
-    max-height: 40px;
+    max-width: 200px;
+    max-height: 140px;
 }
