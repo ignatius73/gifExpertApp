@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unitary tests over GifGrid.js should match with the snapshot 1`] = `
+<Fragment>
+  <h3>
+     
+    One Punch
+     
+  </h3>
+   
+  <hr />
+   
+  <p>
+     Loading... 
+  </p>
+   
+  <div
+    className="card-grid"
+  />
+    
+</Fragment>
+`;
