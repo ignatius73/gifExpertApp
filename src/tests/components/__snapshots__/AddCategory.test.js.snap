@@ -4,7 +4,6 @@ exports[`Unitary tests on AddCategory should get a Category 1`] = `
 <form
   onSubmit={[Function]}
 >
-  <p />
   <input
     onChange={[Function]}
     type="text"
